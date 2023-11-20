@@ -64,7 +64,8 @@ import { Button } from "./Btn/Button";
   innerCircleColor=""
   barColor=""
   ariaLabel='circles-with-bar-loading'
-/>)}
+          />)};
+        
           {images.length > 0 && (<ImageGallery inf={images}>
           </ImageGallery>)}
           {images.length > 0 && (<Button onClick={handleLoadMore}></Button>)}

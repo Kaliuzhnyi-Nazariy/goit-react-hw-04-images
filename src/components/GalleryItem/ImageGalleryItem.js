@@ -18,7 +18,6 @@ export const ImageGalleryItem = ({ preview, bigPhoto, id, alt }) => {
   return (
     <>
       <GalleryItem
-        // key={id}
         style={{
           padding: '15px',
         }}
