@@ -7,7 +7,6 @@ import { Searchbar } from "./Searchbar/Searcbar";
 import { ImageGallery } from "./ImageGalery/ImageGallery";
 import { Button } from "./Btn/Button";
 
-// export const App = ({ images }) => {
  export const App = () => {
 
    const [query, setQuery] = useState('');
