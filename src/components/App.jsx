@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { fetchRequest } from "./Api";
 import { CirclesWithBar } from 'react-loader-spinner'
 
-
 import { Searchbar } from "./Searchbar/Searcbar";
 import { ImageGallery } from "./ImageGalery/ImageGallery";
 import { Button } from "./Btn/Button";
