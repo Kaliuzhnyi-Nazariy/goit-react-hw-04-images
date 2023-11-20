@@ -7,12 +7,12 @@ import { Searchbar } from "./Searchbar/Searcbar";
 import { ImageGallery } from "./ImageGalery/ImageGallery";
 import { Button } from "./Btn/Button";
 
- export const App = () => {
+export const App = () => {
 
    const [query, setQuery] = useState('');
    const [images, setImages] = useState([]);
    const [page, setPage] = useState(1);
-   const [isLoading, setisLoading] = useState(false)
+   const [isLoading, setisLoading] = useState(false);
 
    useEffect(() => {
      async function getImages() {
