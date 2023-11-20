@@ -28,8 +28,6 @@ export class App extends Component {
         return {
           images: prevState.images.concat(res)
         }})
-        
-      
     } catch(err) {
       console.log(err)
     } finally {
